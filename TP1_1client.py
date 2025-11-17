@@ -4,15 +4,15 @@ import time
 
 message = [
     "Bonjour tout le monde!",
-    "Bienvenue dans le monde de MQTT.",
+    "Bienvenue.",
     "Ce message est envoyé via un broker MQTT.",
     "MQTT est un protocole léger de messagerie.",
-    "Il est souvent utilisé dans les applications IoT.",
+    "Il est souvent utilisé dans l'IoT.",
     "Les messages sont publiés sur des topics.",
     "Les clients peuvent s'abonner à ces topics.",
     "Cela permet une communication asynchrone.",
-    "Merci d'avoir lu ces messages!",
-    "Au revoir et à bientôt!"
+    "Merci ",
+    "Au revoir"
 ]
 
 
