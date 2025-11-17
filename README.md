@@ -4,7 +4,7 @@ Ce lab est une introduction aux systeme multiagent et plus particulièrement aux
 
 Avant d'éxécuter du code, lancer un venv
 
-''' bash
+'''
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirement.txt
@@ -13,14 +13,14 @@ pip install -r requirement.txt
 ### Exercice 1 : 
 
 
-bash '''
+'''
 python3 TP1_1client.py
 '''
 
 
 ### Exercice 2 :
 
-bash '''
+'''
 python3 launch_pingpong.py
 '''
 
@@ -28,7 +28,7 @@ python3 launch_pingpong.py
 ## II Sensor Network
 On lance tout d'abbord la simulation des sensors dans un premier terminal avec 
 
-bash '''
+'''
 python3 sensor_sim.py
 '''
 
