@@ -75,4 +75,5 @@ Les alertes sont publiées sur :
 Les scripts utilisent un broker local sur le port 1883 (ici : shiftr.io).
 
 # Auteurs
-Ton nom / groupe.
+Eric Haarlemmer
+Lucas Greneche
