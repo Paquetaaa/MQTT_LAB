@@ -55,7 +55,7 @@ Pour afficher les moyennes :
 python3 Interface.py salon/temperature/average
 ```
 
-# III – Détection d’anomalies
+# Détection d’anomalies
 
 Agent chargé de détecter les valeurs anormales en fonction d'une fenêtre glissante et d’un seuil à 2 écarts-types.
 
@@ -74,6 +74,9 @@ Un agent est responsable de la lecture de ce topic, pour identifier le sensor re
 ```
 python3 identification_agent.py salon/temperature/+/alert
 ```
+# III - Contract Net - Machines and Jobs
+
+
 
 # Broker MQTT
 Les scripts utilisent un broker local sur le port 1883 (ici : shiftr.io).
