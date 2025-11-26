@@ -69,7 +69,11 @@ Les alertes sont publiées sur :
 <zone>/<datatype>/<sensor_id>/alert
 ```
 
+Un agent est responsable de la lecture de ce topic, pour identifier le sensor responsable : c'est l'identification agent
 
+```
+python3 identification_agent.py salon/temperature/+/alert
+```
 
 # Broker MQTT
 Les scripts utilisent un broker local sur le port 1883 (ici : shiftr.io).
