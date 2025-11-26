@@ -69,13 +69,24 @@ Les alertes sont publiées sur :
 <zone>/<datatype>/<sensor_id>/alert
 ```
 
-Un agent est responsable de la lecture de ce topic, pour identifier le sensor responsable : c'est l'identification agent
+Un agent est responsable de la lecture de ce topic, pour identifier le sensor responsable : c'est l'identification agent.
 
 ```
 python3 identification_agent.py salon/temperature/+/alert
 ```
 # III - Contract Net - Machines and Jobs
 
+On lance le superviseur qui propose et distribue les tâches.
+
+```
+python3 supervisor.py
+```
+
+Puis on lance le simulateur qui crée N machines (ici 5) prêtes à traiter les tâches.
+
+```
+python3 Exercice3/machine_sim.py 5
+```
 
 
 # Broker MQTT
