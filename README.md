@@ -29,7 +29,7 @@ python3 launch_pingpong.py
 On lance d'abord la simulation des capteurs dans un premier terminal :
 
 ```
-python3 sensor_sim.py
+python3 sensors_sim.py
 ```
 
 Ce programme crée un certain nombre de capteurs de base, puis à chaque fin de cycle il supprime certains capteurs et en crée de nouveaux avec une certaine probabilité.
