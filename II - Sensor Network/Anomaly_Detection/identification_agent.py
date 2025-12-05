@@ -32,8 +32,10 @@ def on_message(client, userdata, msg):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 identification_agent.py <topic>")
-        print("ex: python identification_agent.py salon/temperature/+/alert")
+        print("Usage: python identification_agent.py <topic>")
+        print("ex: python3 identification_agent.py salon/temperature/+/alert \n")
+        print("écoute les alertes de tous les capteurs de température du salon \n")
+        print("Pour ecouter toutes les alertes, utilisez le topic '+/+/+/alert' \n")
         sys.exit(1)
 
     topic = sys.argv[1]
