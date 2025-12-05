@@ -61,7 +61,7 @@ def on_message(client, userdata, msg):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python detection_agent.py <topic> <MAX> ex: chambre/temperature/+")
+        print("Usage: python3 detection_agent.py <topic> <MAX> ex: chambre/temperature/+")
         sys.exit(1)
 
     topic = sys.argv[1]
