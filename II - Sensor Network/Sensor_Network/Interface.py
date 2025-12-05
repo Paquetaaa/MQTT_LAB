@@ -16,7 +16,8 @@ def on_message(client, userdata, msg):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python Interface.py <topic> ex: chambre/temperature/average")
+        print("Usage: python3 Interface.py <topic> ex: chambre/temperature/average")
+        print("Or if you want to listen to all averages use: python3 Interface.py +/+/average\n")
         sys.exit(1)
 
     client = mqtt.Client()
