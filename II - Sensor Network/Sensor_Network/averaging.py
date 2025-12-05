@@ -35,7 +35,7 @@ def on_message(client, userdata, msg):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python averaging.py <room/datatype>")
+        print("Usage: python3 averaging.py <room/datatype>")
         sys.exit(1)
 
     client = mqtt.Client()
