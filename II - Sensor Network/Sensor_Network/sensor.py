@@ -11,7 +11,7 @@ def on_connect(client, userdata, flags, rc):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python sensor.py <room> <datatype> <appareil>")
+        print("Usage: python3 sensor.py <room> <datatype> <appareil>")
         sys.exit(1)
     client = mqtt.Client()
     client.connect("localhost",1883,60)
