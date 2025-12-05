@@ -6,7 +6,7 @@ import random
 
 
 if len(sys.argv) != 2:
-    print("Usage: python machine.py <client_name>")
+    print("Usage: python3 machine.py <client_name>")
     sys.exit(1)
 
 NOJOB = 0
